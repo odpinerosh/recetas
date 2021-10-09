@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recetas Fáciles || Inicio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar-->
+    <nav class="nav-bar">
+        <div class="nav-center">
+            <div class="nav-header">
+                <a href="./index.html" class="nav-logo">
+                    <img src="./assets/logo_1.svg" alt="recetas sencillas logo">
+                </a>
+                <button class="btn nav-btn">
+                  <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+            <div class="nav-links">
+                <a href="./index.html" class="nav-link">Inicio</a>
+                <a href="./about.html" class="nav-link">Nosotros</a>
+                <a href="./tag-group.html" class="nav-link">Categorías</a>
+                <a href="./recipes.html" class="nav-link">Recetas</a>
+
+                <div class="nav-link contact-link">
+                    <a href="./contact.html" class="btn">Contacto</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End of Navigation Bar -->
+
+    <!-- Main -->
+    <main class="page">
+        <section class="about-page">
+            <div>
+                <h3 style="font-family: 'Amita', cursive;">Cocinando con cariño</h3>
+                <p>
+                    Cuando yo era una pequeña niña, mi madre cocinaba deliciosos platos para mi padre, mi hermano y yo. Siempre queríamos repetir y ella llenaba cada plato con cariñosos manjares, servidos con amor y empeño.
+                </p>
+                <p>
+                    Al pasar el tiempo me convertí, a mi vez, en madre y esposa. Y mi ilusión es poner en los platos de mi familia, tal y como aprendí de niña, alimentos muy deliciosos que expresen amor y gratitud.
+                </p>
+                <p>
+                    Soy Jinneh y hoy comparto también con ustedes mis mejores recetas. 
+                    <br><span style="font-family: 'Amita', cursive;">¡A disfrutar!</span>
+                </p>
+                <div class="contact-link">
+                    <a href="./contact.html" class="btn">Contacto</a>
+                </div>
+            </div>
+            <div class="about-img">
+                <div>
+
+                </div>
+            </div>
+        </section>
+        <section class="featured-recipes">
+            <h5 class="feat-title">Platos destacados del mes</h5>
+            <!-- Recipes List -->
+            <div class="recipes-list">
+                <!-- Single Recipe -->
+                <a href="./single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/just-eggs.jpg" alt="Receta" loading="lazy" class="img recipe-img">
+                    <h5>Desayuno clásico</h5>
+                    <p>Prep: 10min | Cocción: 10min</p>
+                </a>
+                <!-- End of Single Recipe -->
+                <!-- Single Recipe -->
+                <a href="./single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/ginger-soup.jpg" alt="Receta" loading="lazy" class="img recipe-img">
+                    <h5>sopa de gengibre</h5>
+                    <p>Prep: 35min | Cocción: 20min</p>
+                </a>
+                <!-- End of Single Recipe -->
+                <!-- Single Recipe -->
+                <a href="./single-recipe.html" class="recipe">
+                    <img src="./assets/recipes/chocopie.jpg" alt="Receta" loading="lazy" class="img recipe-img">
+                    <h5>pie de chocolate y helado</h5>
+                    <p>Prep: 15min | Cocción: -</p>
+                </a>
+                <!-- End of Single Recipe -->
+            </div>
+            <!-- End Recipes List -->
+        </section>
+    </main>
+    <!-- End of Main -->
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <p>&copy;
+            <span id="date"></span>
+            <span class="footer-logo" style="font-family: 'Amita', cursive;">Recetas al punto.</span> - Construyó <a href="https://github.com/odpinerosh/ " class="built-link"> {odph}</a>
+        </p>
+
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="./js/app.js "></script>
+</body>
+
+</html>
